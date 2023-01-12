@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="example.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>To Do  List</h1>
+    <!-- status
+    new=nuevo
+    done = hecho -->
+
+    <input id="newItem"type="text" placeholder="write you new item">
+    <button onclick="addItem()">Add item</button>
+
+    <ul id="list">
+        <li class="done">Arregalr el cuarto</li>
+        <li class="done">Desayunar cereal</li>
+        <li class="new">Ir a la biblioteca</li>
+        <li class="done">Ir a clases de Algoritmos</li>
+
+    </ul>
+    <style>
+        .new{
+            color:green;
+        }
+        .done{
+            color:gray;
+            text-decoration:line-through;
+        }
+    </style>
+</body>
+</html>
